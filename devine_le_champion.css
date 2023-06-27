@@ -1,0 +1,266 @@
+.reponseChampion {
+    margin: 10px auto;
+    width: 75%;
+    box-shadow: 0px 0px 5px 2px black ;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+div {
+    width:5em;
+    height:5em;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+.mauvaiseReponse {
+    background-color: darkred;
+}
+
+.mauvaiseReponseUpperDate {
+    background-image: url(Flecheplushaut.png);
+    background-size: 5.4em 5.4em;
+    background-repeat: no-repeat;
+}
+
+.mauvaiseReponseLowerDate {
+    background-image:url(Flecheplusbas.png);
+    background-size: 5.4em 5.4em;
+    background-repeat: no-repeat;
+}
+
+.presqueReponse {
+    background-color: darkgoldenrod;
+}
+
+.bonneReponse {
+    background-color: green;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(lol-background.jpg);
+    background-size:  100%;
+    
+}
+
+#propositionChampion {
+    margin: 10px auto;
+    border: solid 1px black;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 17, 100, 0.9);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 4px black ;
+}
+
+label {
+    font-size: 2em;
+}
+
+button {
+    box-shadow: 0px 0px 15px 0px black ;
+	background-color:#32165f98;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 15px;
+	text-decoration:none;
+}
+button:hover {
+    background-color: rgb(33, 18, 150);
+}
+
+input {
+    width: 250px;
+    height: 2em;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+p {
+    text-align:center;
+}
+
+.Aatrox   {   background-image: url(Aatrox.jpg);   background-size:5.5em; }
+.Ahri   {   background-image: url(Ahri.jpg);   background-size:5.5em; }
+.Akali   {   background-image: url(Akali.jpg);   background-size:5.5em; }
+.Akshan   {   background-image: url(Akshan.jpg);   background-size:5.5em; }
+.Alistar   {   background-image: url(Alistar.jpg);   background-size:5.5em; }
+.Amumu   {   background-image: url(Amumu.jpg);   background-size:5.5em; }
+.Anivia   {   background-image: url(Anivia.jpg);   background-size:5.5em; }
+.Annie   {   background-image: url(Annie.jpg);   background-size:5.5em; }
+.Aphelios   {   background-image: url(Aphelios.jpg);   background-size:5.5em; }
+.Ashe   {   background-image: url(Ashe.jpg);   background-size:5.5em; }
+.AurelionSol   {   background-image: url(AurelionSol.jpg);   background-size:5.5em; }
+.Azir   {   background-image: url(Azir.jpg);   background-size:5.5em; }
+.Bard   {   background-image: url(Bard.jpg);   background-size:5.5em; }
+.BelVeth   {   background-image: url(BelVeth.jpg);   background-size:5.5em; }
+.Blitzcrank   {   background-image: url(Blitzcrank.jpg);   background-size:5.5em; }
+.Brand   {   background-image: url(Brand.jpg);   background-size:5.5em; }
+.Braum   {   background-image: url(Braum.jpg);   background-size:5.5em; }
+.Caitlyn   {   background-image: url(Caitlyn.jpg);   background-size:5.5em; }
+.Camille   {   background-image: url(Camille.jpg);   background-size:5.5em; }
+.Cassiopeia   {   background-image: url(Cassiopeia.jpg);   background-size:5.5em; }
+.ChoGath   {   background-image: url(ChoGath.jpg);   background-size:5.5em; }
+.Corki   {   background-image: url(Corki.jpg);   background-size:5.5em; }
+.Darius   {   background-image: url(Darius.jpg);   background-size:5.5em; }
+.Diana   {   background-image: url(Diana.jpg);   background-size:5.5em; }
+.DrMundo   {   background-image: url(DrMundo.jpg);   background-size:5.5em; }
+.Draven   {   background-image: url(Draven.jpg);   background-size:5.5em; }
+.Ekko   {   background-image: url(Ekko.jpg);   background-size:5.5em; }
+.Elise   {   background-image: url(Elise.jpg);   background-size:5.5em; }
+.Evelynn   {   background-image: url(Evelynn.jpg);   background-size:5.5em; }
+.Ezreal   {   background-image: url(Ezreal.jpg);   background-size:5.5em; }
+.Fiddlesticks   {   background-image: url(Fiddlesticks.jpg);   background-size:5.5em; }
+.Fiora   {   background-image: url(Fiora.jpg);   background-size:5.5em; }
+.Fizz   {   background-image: url(Fizz.jpg);   background-size:5.5em; }
+.Galio   {   background-image: url(Galio.jpg);   background-size:5.5em; }
+.Gangplank   {   background-image: url(Gangplank.jpg);   background-size:5.5em; }
+.Garen   {   background-image: url(Garen.jpg);   background-size:5.5em; }
+.Gnar   {   background-image: url(Gnar.jpg);   background-size:5.5em; }
+.Gragas   {   background-image: url(Gragas.jpg);   background-size:5.5em; }
+.Graves   {   background-image: url(Graves.jpg);   background-size:5.5em; }
+.Gwen   {   background-image: url(Gwen.jpg);   background-size:5.5em; }
+.Hecarim   {   background-image: url(Hecarim.jpg);   background-size:5.5em; }
+.Heimerdinger   {   background-image: url(Heimerdinger.jpg);   background-size:5.5em; }
+.Illaoi   {   background-image: url(Illaoi.jpg);   background-size:5.5em; }
+.Irelia   {   background-image: url(Irelia.jpg);   background-size:5.5em; }
+.Ivern   {   background-image: url(Ivern.jpg);   background-size:5.5em; }
+.Janna   {   background-image: url(Janna.jpg);   background-size:5.5em; }
+.JarvanIV   {   background-image: url(JarvanIV.jpg);   background-size:5.5em; }
+.Jax   {   background-image: url(Jax.jpg);   background-size:5.5em; }
+.Jayce   {   background-image: url(Jayce.jpg);   background-size:5.5em; }
+.Jhin   {   background-image: url(Jhin.jpg);   background-size:5.5em; }
+.Jinx   {   background-image: url(Jinx.jpg);   background-size:5.5em; }
+.Kaisa   {   background-image: url(Kaisa.jpg);   background-size:5.5em; }
+.Kalista   {   background-image: url(Kalista.jpg);   background-size:5.5em; }
+.Karma   {   background-image: url(Karma.jpg);   background-size:5.5em; }
+.Karthus   {   background-image: url(Karthus.jpg);   background-size:5.5em; }
+.Kassadin   {   background-image: url(Kassadin.jpg);   background-size:5.5em; }
+.Katarina   {   background-image: url(Katarina.jpg);   background-size:5.5em; }
+.Kayle   {   background-image: url(Kayle.jpg);   background-size:5.5em; }
+.Kayn   {   background-image: url(Kayn.jpg);   background-size:5.5em; }
+.Kennen   {   background-image: url(Kennen.jpg);   background-size:5.5em; }
+.KhaZix   {   background-image: url(KhaZix.jpg);   background-size:5.5em; }
+.Kindred   {   background-image: url(Kindred.jpg);   background-size:5.5em; }
+.Kled   {   background-image: url(Kled.jpg);   background-size:5.5em; }
+.KogMaw   {   background-image: url(KogMaw.jpg);   background-size:5.5em; }
+.KSante   {   background-image: url(KSante.jpg);   background-size:5.5em; }
+.LeBlanc   {   background-image: url(LeBlanc.jpg);   background-size:5.5em; }
+.LeeSin   {   background-image: url(LeeSin.jpg);   background-size:5.5em; }
+.Leona   {   background-image: url(Leona.jpg);   background-size:5.5em; }
+.Lillia   {   background-image: url(Lillia.jpg);   background-size:5.5em; }
+.Lissandra   {   background-image: url(Lissandra.jpg);   background-size:5.5em; }
+.Lucian   {   background-image: url(Lucian.jpg);   background-size:5.5em; }
+.Lulu   {   background-image: url(Lulu.jpg);   background-size:5.5em; }
+.Lux   {   background-image: url(Lux.jpg);   background-size:5.5em; }
+.Malphite   {   background-image: url(Malphite.jpg);   background-size:5.5em; }
+.Malzahar   {   background-image: url(Malzahar.jpg);   background-size:5.5em; }
+.Maokai   {   background-image: url(Maokai.jpg);   background-size:5.5em; }
+.MasterYi   {   background-image: url(MasterYi.jpg);   background-size:5.5em; }
+.Milio   {   background-image: url(Milio.jpg);   background-size:5.5em; }
+.MissFortune   {   background-image: url(MissFortune.jpg);   background-size:5.5em; }
+.Mordekaiser   {   background-image: url(Mordekaiser.jpg);   background-size:5.5em; }
+.Morgana   {   background-image: url(Morgana.jpg);   background-size:5.5em; }
+.Nami   {   background-image: url(Nami.jpg);   background-size:5.5em; }
+.Nasus   {   background-image: url(Nasus.jpg);   background-size:5.5em; }
+.Nautilus   {   background-image: url(Nautilus.jpg);   background-size:5.5em; }
+.Neeko   {   background-image: url(Neeko.jpg);   background-size:5.5em; }
+.Nidalee   {   background-image: url(Nidalee.jpg);   background-size:5.5em; }
+.Nilah   {   background-image: url(Nilah.jpg);   background-size:5.5em; }
+.Nocturne   {   background-image: url(Nocturne.jpg);   background-size:5.5em; }
+.NunuWillump   {   background-image: url(NunuWillump.jpg);   background-size:5.5em; }
+.Olaf   {   background-image: url(Olaf.jpg);   background-size:5.5em; }
+.Orianna   {   background-image: url(Orianna.jpg);   background-size:5.5em; }
+.Ornn   {   background-image: url(Ornn.jpg);   background-size:5.5em; }
+.Pantheon   {   background-image: url(Pantheon.jpg);   background-size:5.5em; }
+.Poppy   {   background-image: url(Poppy.jpg);   background-size:5.5em; }
+.Pyke   {   background-image: url(Pyke.jpg);   background-size:5.5em; }
+.Qiyana   {   background-image: url(Qiyana.jpg);   background-size:5.5em; }
+.Quinn   {   background-image: url(Quinn.jpg);   background-size:5.5em; }
+.Rakan   {   background-image: url(Rakan.jpg);   background-size:5.5em; }
+.Rammus   {   background-image: url(Rammus.jpg);   background-size:5.5em; }
+.RekSai   {   background-image: url(RekSai.jpg);   background-size:5.5em; }
+.Rell   {   background-image: url(Rell.jpg);   background-size:5.5em; }
+.RenataGlasc   {   background-image: url(RenataGlasc.jpg);   background-size:5.5em; }
+.Renekton   {   background-image: url(Renekton.jpg);   background-size:5.5em; }
+.Rengar   {   background-image: url(Rengar.jpg);   background-size:5.5em; }
+.Riven   {   background-image: url(Riven.jpg);   background-size:5.5em; }
+.Rumble   {   background-image: url(Rumble.jpg);   background-size:5.5em; }
+.Ryze   {   background-image: url(Ryze.jpg);   background-size:5.5em; }
+.Samira   {   background-image: url(Samira.jpg);   background-size:5.5em; }
+.Sejuani   {   background-image: url(Sejuani.jpg);   background-size:5.5em; }
+.Senna   {   background-image: url(Senna.jpg);   background-size:5.5em; }
+.Seraphine   {   background-image: url(Seraphine.jpg);   background-size:5.5em; }
+.Sett   {   background-image: url(Sett.jpg);   background-size:5.5em; }
+.Shaco   {   background-image: url(Shaco.jpg);   background-size:5.5em; }
+.Shen   {   background-image: url(Shen.jpg);   background-size:5.5em; }
+.Shyvana   {   background-image: url(Shyvana.jpg);   background-size:5.5em; }
+.Singed   {   background-image: url(Singed.jpg);   background-size:5.5em; }
+.Sion   {   background-image: url(Sion.jpg);   background-size:5.5em; }
+.Sivir   {   background-image: url(Sivir.jpg);   background-size:5.5em; }
+.Skarner   {   background-image: url(Skarner.jpg);   background-size:5.5em; }
+.Sona   {   background-image: url(Sona.jpg);   background-size:5.5em; }
+.Soraka   {   background-image: url(Soraka.jpg);   background-size:5.5em; }
+.Swain   {   background-image: url(Swain.jpg);   background-size:5.5em; }
+.Sylas   {   background-image: url(Sylas.jpg);   background-size:5.5em; }
+.Syndra   {   background-image: url(Syndra.jpg);   background-size:5.5em; }
+.TahmKench   {   background-image: url(TahmKench.jpg);   background-size:5.5em; }
+.Taliyah   {   background-image: url(Taliyah.jpg);   background-size:5.5em; }
+.Talon   {   background-image: url(Talon.jpg);   background-size:5.5em; }
+.Taric   {   background-image: url(Taric.jpg);   background-size:5.5em; }
+.Teemo   {   background-image: url(Teemo.jpg);   background-size:5.5em; }
+.Thresh   {   background-image: url(Thresh.jpg);   background-size:5.5em; }
+.Tristana   {   background-image: url(Tristana.jpg);   background-size:5.5em; }
+.Trundle   {   background-image: url(Trundle.jpg);   background-size:5.5em; }
+.Tryndamere   {   background-image: url(Tryndamere.jpg);   background-size:5.5em; }
+.TwistedFate   {   background-image: url(TwistedFate.jpg);   background-size:5.5em; }
+.Twitch   {   background-image: url(Twitch.jpg);   background-size:5.5em; }
+.Udyr   {   background-image: url(Udyr.jpg);   background-size:5.5em; }
+.Urgot   {   background-image: url(Urgot.jpg);   background-size:5.5em; }
+.Varus   {   background-image: url(Varus.jpg);   background-size:5.5em; }
+.Vayne   {   background-image: url(Vayne.jpg);   background-size:5.5em; }
+.Veigar   {   background-image: url(Veigar.jpg);   background-size:5.5em; }
+.VelKoz   {   background-image: url(VelKoz.jpg);   background-size:5.5em; }
+.Vex   {   background-image: url(Vex.jpg);   background-size:5.5em; }
+.Vi   {   background-image: url(Vi.jpg);   background-size:5.5em; }
+.Viego   {   background-image: url(Viego.jpg);   background-size:5.5em; }
+.Viktor   {   background-image: url(Viktor.jpg);   background-size:5.5em; }
+.Vladimir   {   background-image: url(Vladimir.jpg);   background-size:5.5em; }
+.Volibear   {   background-image: url(Volibear.jpg);   background-size:5.5em; }
+.Warwick   {   background-image: url(Warwick.jpg);   background-size:5.5em; }
+.Wukong   {   background-image: url(Wukong.jpg);   background-size:5.5em; }
+.Xayah   {   background-image: url(Xayah.jpg);   background-size:5.5em; }
+.Xerath   {   background-image: url(Xerath.jpg);   background-size:5.5em; }
+.XinZhao   {   background-image: url(XinZhao.jpg);   background-size:5.5em; }
+.Yasuo   {   background-image: url(Yasuo.jpg);   background-size:5.5em; }
+.Yone   {   background-image: url(Yone.jpg);   background-size:5.5em; }
+.Yorick   {   background-image: url(Yorick.jpg);   background-size:5.5em; }
+.Yuumi   {   background-image: url(Yuumi.jpg);   background-size:5.5em; }
+.Zac   {   background-image: url(Zac.jpg);   background-size:5.5em; }
+.Zed   {   background-image: url(Zed.jpg);   background-size:5.5em; }
+.Zeri   {   background-image: url(Zeri.jpg);   background-size:5.5em; }
+.Ziggs   {   background-image: url(Ziggs.jpg);   background-size:5.5em; }
+.Zilean   {   background-image: url(Zilean.jpg);   background-size:5.5em; }
+.Zoe   {   background-image: url(Zoe.jpg);   background-size:5.5em; }
+.Zyra   {   background-image: url(Zyra.jpg);   background-size:5.5em; }
