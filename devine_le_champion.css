@@ -87,6 +87,7 @@ button {
 }
 button:hover {
     background-color: rgb(33, 18, 150);
+	transition: 0.3s;
 }
 
 input {
