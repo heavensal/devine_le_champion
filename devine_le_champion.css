@@ -84,10 +84,11 @@ button {
 	font-size:17px;
 	padding:15px 15px;
 	text-decoration:none;
+	transition: background-color 0.3s;
 }
 button:hover {
     background-color: rgb(33, 18, 150);
-	transition: 0.3s;
+	
 }
 
 input {
